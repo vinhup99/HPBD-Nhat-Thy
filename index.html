@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birth day</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@latest/dist/confetti.browser.min.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<script>
+    new WOW({
+        offset: 50,
+    }).init();
+</script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<body>
+    <div class="happy-birth-day bg-phase-1">
+        <div class="birthday-text" id="birthdayText">HAPPY BIRTHDAY TO NHAT THY - 29-04-2025!</div>
+        <div class="timer " id="timer">
+            <div id="hours" class="timer-item">
+                <span>00</span>
+                <span>HH</span>
+            </div>:
+            <div id="minutes" class="timer-item">
+                <span>00</span>
+                <span>mm</span>
+            </div>:
+            <div id="seconds" class="timer-item">
+                <span>05</span>
+                <span>ss</span>
+            </div>
+        </div>
+        <div class="click-me">
+            Click here
+        </div>
+        <div class="cake">
+            <div class="plate"></div>
+            <div class="cake-layer cake-layer-bottom"></div>
+            <div class="cake-layer cake-layer-middle"></div>
+            <div class="cake-layer cake-layer-top"></div>
+            <div class="icing">
+                <div class="drip drip-1"></div>
+                <div class="drip drip-2"></div>
+                <div class="drip drip-3"></div>
+            </div>
+            <div class="candles">
+                <div class="flame f-1"></div>
+                <div class="flame f-2"></div>
+                <div class="candle">2</div>
+                <div class="candle">4</div>
+            </div>
+            <div class="quotes">Happy birthday to you <br>
+                Happy birthday to you <br>
+                Happy birthday, happy birthday <br>
+                Happy birthday to <span style="color: #EE66A6;">Nhật Thy :D</span></div>
+        </div>
+        <div class="blow">Thổi nến</div>
+    </div>
+    <div class="bubbles"></div>
+    <div class="header">
+        <div class="lights">
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="light">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="title">
+            Happy Birth Day
+        </div>
+    </div>
+    <audio controls id="myAudio" loop>
+        <!-- <source src="./assets/happy-birthday-music-box-version-117317.mp3" type="audio/mpeg"> -->
+    </audio>
+    <script defer src="./index.js"></script>
+    <script src="anime.min.js"></script>
+</body>
+
+</html>
