@@ -753,7 +753,7 @@ overflow: hidden;
 
 .birthday-text span {
     transition: opacity 0.3s ease, transform 0.3s ease;
-    animation-delay: calc(var(--i) * 0.1s);
+    /* animation-delay: calc(var(--i) * 0.1s); */
     animation: colorChange 5s infinite;
     transform: translateY(20px);
     display: inline-block;
